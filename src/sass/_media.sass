@@ -83,8 +83,7 @@
             margin-top: 20px
     .choice
         &_img
-            width: 100%
-            
+            width: 100%     
     footer
         padding-right: 0px
         padding-left: 10px
@@ -163,6 +162,8 @@
             margin: 0 auto
             display: block
             margin-top: 8px
+            &:hover
+                background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
     .xs-hidden
         display: none
     .xs-visible
@@ -170,6 +171,14 @@
     .promo
         &_title
             line-height: 45px
+        &_btn
+            &:hover
+                background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
+    .mobile
+        &_item_plus
+            &:hover
+                &:before, &:after
+                    background-color: #1EACC7
     .choice
         &_img
             img
@@ -196,6 +205,8 @@
             height: 22px
             font-size: 9px
             margin-top: 6px
+            &:hover
+                background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
     .promo
         min-height: 400px
         padding: 93px 0 35px 0
@@ -318,12 +329,7 @@
                 width: 80px
 
 
-
-
-
-
-
-                    
+/** Повторяющиеся кнопки **/               
     .label
         margin-bottom: 0
     .subtitle
